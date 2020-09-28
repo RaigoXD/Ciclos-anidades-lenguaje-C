@@ -1,3 +1,10 @@
+/*
+        Jhoan Esteban Raigoza Agudelo
+        Universidad Tecnologica de Pereira
+        Programacion 2
+        Fecha: 22.09.2020
+
+*/
 #include <stdio.h>
 #include <stdlib.h> // importo la libreria stdlib para poder hacer uso de la funcion system(); 
 #include <unistd.h> // La libreria unistd es para poder hacer uso de la funcion sleep();

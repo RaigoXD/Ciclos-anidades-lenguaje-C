@@ -1,3 +1,10 @@
+/*
+        Jhoan Esteban Raigoza Agudelo
+        Universidad Tecnologica de Pereira
+        Programacion 2
+        Fecha: 22.09.2020
+
+*/
 #include <stdio.h>
 
 void Pedir_numeros(int Mayor, int menor, int Mayor_150, int negativos,int promedio_P, int contador, int num_p)
