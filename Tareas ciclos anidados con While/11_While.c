@@ -4,21 +4,26 @@
         Universidad Tecnologica de Pereira
         Programacion 2
         Fecha: 04.09.2020
-	    Programa solo con ciclo For.
+	    Programa solo con ciclo while.
 
 */
 #include <stdio.h>
 
 int main()
 {
-    for(int i = 0; i < 25; ++i){
-	    for(int j = 0; j < 80;++j){
+    int i = 0;
+    int j = 0;
+    while(i < 25){
+        j = 0;
+	    while(j < 80){
             if(j > (80 - i))
                 printf("A");
 	        else
 		        printf(" ");
+            ++j;
 	    }
 	    printf("\n");
+        ++i;
     }
     return 0;
 }
